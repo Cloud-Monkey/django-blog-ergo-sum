@@ -27,9 +27,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['.codeinstitute-ide.net', '.herokuapp.com']
+ALLOWED_HOSTS = ['https://8000-cloudmonkey-djangobloge-1jl7xwn6h8a.ws.codeinstitute-ide.net/', '.herokuapp.com']
 
 
 # Application definition
