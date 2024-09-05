@@ -32,4 +32,4 @@ class Comment(models.Model):
     class Meta:
         ordering = ["created_on"]
     def __str__(self):
-        return f"{self.title} | Written by {self.author}"
+        return f"{self.body} by {self.author}"
